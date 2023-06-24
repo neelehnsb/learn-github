@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -31,7 +31,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  height: 60px;
+  padding: 20px 0;
   font-size: small;
 }
 
@@ -46,6 +47,10 @@ ul {
   padding: 0 15px;
 }
 
+.main-menu li a:hover {
+  border-bottom: 1.5px solid #272727;
+}
+
 .side-menu {
   display: flex;
 }
@@ -55,4 +60,55 @@ ul {
 
 .logo {
   width: 110px;
+}
+
+.landing-show{
+  height: 450px;
+  background: url(img/landing-photo.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.landing-show h3{
+  font-size: 3em;
+  font-weight: 400;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.landing-show p{
+  padding-left: 100px;
+  width: 700px;
+  padding-bottom: 15px;
+}
+
+.landing-btn{
+  padding-left: 100px;
+}
+.btn-one-person{
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #0067b8;
+  color: #fff;
+  font-size: 15px;;
+}
+
+.btn-one-person:hover{
+  opacity: 0.9;
+}
+
+.btn-six-person{
+  cursor: pointer;
+  font-weight: bolder;
+  margin-left: 20px;
+
+}
+
+.btn-six-person:hover{
+  border-bottom: 1.5px solid #272727;
 }
