@@ -27,6 +27,10 @@ ul {
   margin: auto;
 }
 
+.container h2{
+  font-size: 30px;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -122,7 +126,8 @@ ul {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 100px;;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .icon-links div{
@@ -151,7 +156,7 @@ ul {
 
 .cards img {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -174,4 +179,42 @@ ul {
 .cards p{
   font-size: 1.1rem;
   margin-bottom: 20px;
+}
+
+.xbox {
+  width: 90%;
+  margin: auto;
+  height: 480px;
+  background: url('img/Xbox-full.jpeg') no-repeat center center/cover;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+  color: #fff;
+}
+
+.xbox p {
+  margin: 40px ;
+  font-size: larger;
+}
+
+.xbox h2{
+  font-size: xx-large;
+  margin: 40px 40px;
+
+}
+.xbox a {
+  margin-left: 40px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #0067b8;
+  color: #fff;
+  font-size: 15px;;
 }
